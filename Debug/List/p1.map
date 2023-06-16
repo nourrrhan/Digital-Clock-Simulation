@@ -1,0 +1,23 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+hours                                                                             R5           1
+min                                                                               R4           1
+sec                                                                               R7           1
+on                                                                                R8,R9        2
+alarm_hours                                                                       R6           1
+alarm_minutes                                                                     R11          1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+dec2bcd                                                                           0x0005E     17
+main                                                                              0x0006F     63
